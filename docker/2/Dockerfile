@@ -37,9 +37,9 @@ RUN cp fsc_linux64/fsc252 /usr/bin
 RUN rm -rf fsc_*
 
 #plink
-RUN wget http://pngu.mgh.harvard.edu/~purcell/plink/dist/plink-latest.zip
-RUN unzip plink_latest.zip
-RUN mv plink /usr/bin
+RUN wget http://pngu.mgh.harvard.edu/~purcell/plink/dist/plink-1.07-x86_64.zip
+RUN unzip plink-1.07-x86_64.zip
+RUN mv plink-1.07-x86_64/plink /usr/bin
 
 #trimal
 RUN wget http://trimal.cgenomics.org/_media/trimal.v1.2rev59.tar.gz
