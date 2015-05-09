@@ -38,7 +38,7 @@ RUN rm -rf fsc_*
 
 #plink
 RUN wget http://pngu.mgh.harvard.edu/~purcell/plink/dist/plink-latest.zip
-RUN unzip plink_latest.zip
+RUN unzip plink-latest.zip
 RUN mv plink /usr/bin
 
 #trimal
